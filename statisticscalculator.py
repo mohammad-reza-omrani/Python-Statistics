@@ -1,7 +1,15 @@
-import statistics
+# ========================================================================================== Import Section
+import statistics                                                                                  # line 2
 
-data = [2, 4, 6, 8, 10]
-print("Mean:", statistics.mean(data))
-print("Median:", statistics.median(data))
-print("Mode:", statistics.mode(data))
-print("Standard Deviation:", statistics.stdev(data))
+# ============================================================================================ Data Section
+data = [2, 4, 6, 8, 10]                                                                            # line 5
+
+# =========================================================================================== Print Section
+print("Mean:", statistics.mean(data))                                                              # line 8
+print("Median:", statistics.median(data))                                                          # line 10
+print("Mode:", statistics.mode(data))                                                              # line 12
+print("Standard Deviation:", statistics.stdev(data))                                               # line 14
+
+
+#    ======================================================================================================
+# documented in statisticscalculator.txt
